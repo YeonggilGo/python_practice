@@ -23,7 +23,6 @@ for tc in range(1, T + 1):
     num = list(num)
     n = int(n)
 
-    dp = [0]
 
     dfs(num,n,0)
     print(f'#{tc} {ans}')
