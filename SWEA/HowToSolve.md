@@ -12,17 +12,17 @@
 |2019|doubledouble|||
 |2025|Nline_add|||
 |2027|cross_line|||
-|2029|divmod|||
+|2029|divmod|divmod||
 |2046|#|||
 |2047|upper|||
-|2050|alpha_num|||
+|2050|alpha_num|askii||
 |2056|calendar|||
 |2058|each_add|||
 |2063|mid_num|||
 |2068|max|||
 |2070|bigsmallsame|||
 |2071|aver|||
-|2072|sum_odd|||
+|2072|sum_odd|list comprehension||
 
 
 ### D2
@@ -33,9 +33,20 @@
 |1204|maximum_frequency_num|||
 |1284|water_rate|||
 |1288|insomnia|||
-|1859|millionaire||*|
+|1859|millionaire|reverse search|*|
 |1926|simple369|||
-|1928|Base64_Decoder||*|
+|1928|Base64_Decoder|64 decode|*|
+|1940|rc_car|||
+|1945|simple_factorization|||
+|1946|compressed_pool|||
+|1948|cal_date|datetime||
+|1954|snail_num|||
+|1959|two_num_array|||
+|1961|num_array_rotate|||
+|1966|sort_num|||
+|1970|easy_change|||
+|1974|check_sdoku|||
+|1976|time_add|||
 |4829|min_max|BF||
 |4831|electric_bus|while||
 
