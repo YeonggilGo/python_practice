@@ -1,8 +1,9 @@
 import os
 
-#file_input = open("C:/Users/GoYeongGil/Desktop/python_practice/SWEA/HowToSolve.md", 'r', encoding='UTF-8')
 file_input = open(
-    "/Users/mac/Documents/GitHub/python_practice/SWEA/HowToSolve.md", 'r', encoding='UTF-8')
+    "C:/Users/GoYeongGil/Desktop/python_practice/SWEA/HowToSolve.md", 'r', encoding='UTF-8')
+
+# file_input = open("/Users/mac/Documents/GitHub/python_practice/SWEA/HowToSolve.md", 'r', encoding='UTF-8')
 input_data = file_input.readlines()
 
 algo = {}
@@ -38,8 +39,9 @@ for i in range(1, 4):
         cnt += 1
 
 
-#file_output = open("C:/Users/GoYeongGil/Desktop/python_practice/SWEA/HowToSolve.md", 'w')
 file_output = open(
+    "C:/Users/GoYeongGil/Desktop/python_practice/SWEA/HowToSolve.md", 'w')
+# file_output = open(
     "/Users/mac/Documents/GitHub/python_practice/SWEA/HowToSolve.md", 'w')
 
 
