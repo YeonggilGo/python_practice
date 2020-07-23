@@ -65,4 +65,23 @@
 | Number | Title        | Algorithm |try again|
 | ------ | ------------ | --------- |---------|
 |1206|view|BF||
+|1208|flatten|||
+|1209|sum|||
+|1213|string|string search||
+|1215|palindrome1|||
+|1216|longest_palin|||
+|1217|power|||
+|1220|magnetic|||
+|1221|GNS|||
+|1225|make_password|||
+|1228|password|||
+|1229|password2|||
+|1230|password3|||
+|1234|memorize_pwd|||
+|1240|binary_pwd|||
 |1244|maximum_prize|DFS||
+|1289|restore|||
+|1491|wall_deco|||
+|1493|new_oper|||
+|1860|fish_bread|||
+|1873|battlefield|||
