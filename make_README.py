@@ -1,16 +1,27 @@
 import os
 
-file_input = open(
-    "C:/Users/GoYeongGil/Desktop/python_practice/SWEA/HowToSolve.md", 'r', encoding='UTF-8')
+#file_input = open("C:/Users/GoYeongGil/Desktop/python_practice/README.md", 'r', encoding='UTF-8')
 
-# file_input = open("/Users/mac/Documents/GitHub/python_practice/SWEA/HowToSolve.md", 'r', encoding='UTF-8')
+file_input = open(
+    "/Users/mac/Documents/GitHub/python_practice/README.md", 'r', encoding='UTF-8')
 input_data = file_input.readlines()
 
 algo = {}
 solved = {}
+data = ''
 
 for line in input_data:
-    if len(line.strip()) > 1:
+    if line[0] == '|':
+        break
+    elif line == '\n':
+        if pre == '\n':
+            data += '\n'
+    else:
+        data += line + '\n'
+    pre = line
+
+for line in input_data:
+    if line[0] == '|':
         if line.strip()[2].isdigit():
             tmp = line.strip('|').split('|')
             algo[tmp[0].strip()] = tmp[2].strip()
@@ -18,11 +29,10 @@ for line in input_data:
 
 cnt = 0
 bl = ''
-data = '''# How To Solve'''
 
 for i in range(1, 4):
-    # os.chdir(r'/Users/mac/Documents/GitHub/python_practice/SWEA/D'+str(i))
-    os.chdir(r'C:/Users/GoYeongGil/Desktop/python_practice/SWEA/D'+str(i))
+    os.chdir(r'/Users/mac/Documents/GitHub/python_practice/SWEA/D'+str(i))
+    # os.chdir(r'C:/Users/GoYeongGil/Desktop/python_practice/SWEA/D'+str(i))
     filenames = os.listdir('.')
     filenames.sort()
     num = []
@@ -30,9 +40,12 @@ for i in range(1, 4):
     for filename in filenames:
         num.append(filename[:4])
         title.append(filename[4:])
-
-    data += f'''\n\n### D{i}\n\n
+    if i == 1:
+        data += f'''| Number | Title        | Algorithm |try again|\n| ------ | ------------ | --------- |---------|\n'''
+    else:
+        data += f'''\n\n### D{i}\n\n
 | Number | Title        | Algorithm |try again|\n| ------ | ------------ | --------- |---------|\n'''
+
     for j in range(len(num)):
         al = algo[num[j]] if num[j] in algo else bl
         so = solved[num[j]] if num[j] in solved else bl
@@ -40,9 +53,9 @@ for i in range(1, 4):
         cnt += 1
 
 
+#file_output = open("C:/Users/GoYeongGil/Desktop/python_practice/README.md", 'w')
 file_output = open(
-    "C:/Users/GoYeongGil/Desktop/python_practice/SWEA/HowToSolve.md", 'w')
-# file_output = open("/Users/mac/Documents/GitHub/python_practice/SWEA/HowToSolve.md", 'w')
+    "/Users/mac/Documents/GitHub/python_practice/README.md", 'w')
 
 
 file_output.write(data)

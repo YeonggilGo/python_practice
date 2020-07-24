@@ -1,4 +1,19 @@
-# How To Solve
+# Python Practice
+
+> SWEA, BOJ 등 문제를 풀어 저장
+
+
+
+
+## 폴더구조
+
+#### SWEA
+
+- D1,D2,D3,D4 난이도 별로 정리
+
+
+
+## How To Solve
 
 ### D1
 
