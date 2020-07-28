@@ -4,28 +4,28 @@ T = int(input())
 def tank_command(s):
     global H, W, tank_dir
 
-    if s == 'U' :
+    if s == 'U':
         if pos[0] > 0:
             if board[pos[0] - 1][pos[1]] == '.':
                 board[pos[0]][pos[1]] = '.'
                 pos[0] -= 1
         board[pos[0]][pos[1]] = '^'
         tank_dir = '^'
-    elif s == 'D' :
+    elif s == 'D':
         if pos[0] < H - 1:
             if board[pos[0] + 1][pos[1]] == '.':
                 board[pos[0]][pos[1]] = '.'
                 pos[0] += 1
         board[pos[0]][pos[1]] = 'v'
         tank_dir = 'v'
-    elif s == 'R' :
+    elif s == 'R':
         if pos[1] < W - 1:
             if board[pos[0]][pos[1]+1] == '.':
                 board[pos[0]][pos[1]] = '.'
                 pos[1] += 1
         board[pos[0]][pos[1]] = '>'
         tank_dir = '>'
-    elif s == 'L' :
+    elif s == 'L':
         if pos[1] > 0:
             if board[pos[0]][pos[1]-1] == '.':
                 board[pos[0]][pos[1]] = '.'
@@ -91,20 +91,8 @@ for tc in range(1, T + 1):
     ans = []
     for line in board:
         tmp = ''.join(line)
-        ans. append(tmp)
-    data += f'#{tc} '
+        ans.append(tmp)
+
     print(f'#{tc}', end=' ')
-
-
     for each in ans:
         print(each)
-        data += f'{each}\n'
-
-    f1 = open('output.txt', 'r')
-    output = f1.readlines()
-
-    data = data.split('\n')
-    for i in range(len(output)):
-        if output[i] != data[i]:
-            print(data[i])
-            print(output[i])

@@ -1,9 +1,9 @@
 import os
 
-#file_input = open("C:/Users/GoYeongGil/Desktop/python_practice/README.md", 'r', encoding='UTF-8')
-
 file_input = open(
-    "/Users/mac/Documents/GitHub/python_practice/README.md", 'r', encoding='UTF-8')
+    "C:/Users/GoYeongGil/Desktop/python_practice/README.md", 'r', encoding='cp949')
+
+# file_input = open("/Users/mac/Documents/GitHub/python_practice/README.md", 'r', encoding = 'UTF-8')
 input_data = file_input.readlines()
 
 algo = {}
@@ -31,8 +31,8 @@ cnt = 0
 bl = ''
 
 for i in range(1, 4):
-    os.chdir(r'/Users/mac/Documents/GitHub/python_practice/SWEA/D'+str(i))
-    # os.chdir(r'C:/Users/GoYeongGil/Desktop/python_practice/SWEA/D'+str(i))
+    # os.chdir(r'/Users/mac/Documents/GitHub/python_practice/SWEA/D'+str(i))
+    os.chdir(r'C:/Users/GoYeongGil/Desktop/python_practice/SWEA/D'+str(i))
     filenames = os.listdir('.')
     filenames.sort()
     num = []
@@ -53,9 +53,9 @@ for i in range(1, 4):
         cnt += 1
 
 
-#file_output = open("C:/Users/GoYeongGil/Desktop/python_practice/README.md", 'w')
 file_output = open(
-    "/Users/mac/Documents/GitHub/python_practice/README.md", 'w')
+    "C:/Users/GoYeongGil/Desktop/python_practice/README.md", 'w')
+# file_output = open("/Users/mac/Documents/GitHub/python_practice/README.md", 'w')
 
 
 file_output.write(data)

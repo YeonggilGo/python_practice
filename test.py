@@ -1,1 +1,2 @@
-print((1, 2)+(2, 3))
+for i in range(1, 103, 7):
+    print(i, end=' ')
