@@ -104,7 +104,7 @@
 |2806|N_queen|BackTracking, DFS|*|
 |2814|longest_path|DFS||
 |2817|partial_sequence|||
-|2930|heap|Heap Tree|***|
+|2930|heap|Heap / heapq|***(module을 써도 안된다)|
 |2948|str_intersection|||
 |3032|1st_equation|Extended Euclidean|don't need|
 |3131|many_prime|||
@@ -112,4 +112,17 @@
 |3233|cut_tri|||
 |3260|add_two_ele|||
 |3282|01_kanpsack|DP|***|
-|3304|LCS|||
+|3304|LCS|DP|*|
+|3307|LIS|DP|*|
+|3314|aver|||
+|3376|padovan|save + recursion||
+|3408|sum_in_three_way|||
+|3431|diet|||
+|3456|rec|||
+|3499|perfect_shuffle|||
+|3750|digit_sum|||
+|3809|listed_int|||
+|3975|compare_winrate|||
+|4047|counting_card|||
+|4299|love_is_timing|||
+|4371|ship|||
