@@ -72,6 +72,8 @@
 |2007|length_of_pattern|string search||
 |4829|min_max|BF||
 |4831|electric_bus|while||
+|4834|number_card|||
+|4835|interval_sum|||
 
 
 ### D3
@@ -126,3 +128,20 @@
 |4047|counting_card|||
 |4299|love_is_timing|||
 |4371|ship|||
+|4406|cant_see|||
+|4466|make_grade_card|||
+|4522|all_or_palindrome|||
+|4579|all_of_palindrome2|||
+|4615|ocello|||
+|4676|make_long_sound|||
+|4698|special_prime|||
+|4751|diamond|||
+|4789|successful_perform_plann|||
+|5162|two_kinds_of_bread|||
+|5215|hamburger_diet|dp||
+|5293|restore_binary|dfs|*|
+|5356|say_vertical|||
+|5431|check_homework|||
+|5515|guess_the_day_of_2016|||
+|5549|even_odd|||
+|5601|juice_distribution|||

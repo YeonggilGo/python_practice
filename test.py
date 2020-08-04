@@ -1,2 +1,2 @@
-a = [1, 2, 3]
-print(a[-3])
+from math import gcd
+print(gcd([10,15,20]))
