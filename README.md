@@ -1,15 +1,15 @@
 # Python Practice
 
-> SWEA, BOJ µî ¹®Á¦¸¦ Ç®¾î ÀúÀå
+> SWEA, BOJ ë“± ë¬¸ì œë¥¼ í’€ì–´ ì €ì¥
 
 
 
 
-## Æú´õ±¸Á¶
+## í´ë”êµ¬ì¡°
 
 #### SWEA
 
-- D1,D2,D3,D4 ³­ÀÌµµ º°·Î Á¤¸®
+- D1,D2,D3,D4 ë‚œì´ë„ ë³„ë¡œ ì •ë¦¬
 
 
 
@@ -106,7 +106,7 @@
 |2806|N_queen|BackTracking, DFS|*|
 |2814|longest_path|DFS||
 |2817|partial_sequence|||
-|2930|heap|Heap / heapq|***(moduleÀ» ½áµµ ¾ÈµÈ´Ù)|
+|2930|heap|Heap / heapq|***(moduleì„ ì¨ë„ ì•ˆëœë‹¤)|
 |2948|str_intersection|||
 |3032|1st_equation|Extended Euclidean|don't need|
 |3131|many_prime|||
@@ -145,3 +145,6 @@
 |5515|guess_the_day_of_2016|||
 |5549|even_odd|||
 |5601|juice_distribution|||
+|5603|haystack|||
+|5607|combination|Fermat's little theorem, Divide & conquer|*|
+
