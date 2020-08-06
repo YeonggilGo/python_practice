@@ -103,7 +103,7 @@ T = int(input())
 
 for tc in range(1, T + 1):
     N = int(input())
-    heap = []]
+    heap = []
     print(f'#{tc}', end=' ')
     for _ in range(N):
         com = list(map(int, input().split()))

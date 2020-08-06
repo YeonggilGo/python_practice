@@ -1,15 +1,15 @@
 # Python Practice
 
-> SWEA, BOJ 등 문제를 풀어 저장
+> SWEA, BOJ
 
 
 
 
-## 폴더구조
+## Folder Structure
 
 #### SWEA
 
-- D1,D2,D3,D4 난이도 별로 정리
+- D1,D2,D3,D4 
 
 
 
@@ -74,6 +74,8 @@
 |4831|electric_bus|while||
 |4834|number_card|||
 |4835|interval_sum|||
+|4839|binary_search|||
+|4936|painting|||
 
 
 ### D3
@@ -81,6 +83,7 @@
 
 | Number | Title        | Algorithm |try again|
 | ------ | ------------ | --------- |---------|
+|1020|_sub_war|||
 |1206|view|BF||
 |1208|flatten|||
 |1209|sum|||
@@ -106,7 +109,7 @@
 |2806|N_queen|BackTracking, DFS|*|
 |2814|longest_path|DFS||
 |2817|partial_sequence|||
-|2930|heap|Heap / heapq|***(module을 써도 안된다)|
+|2930|heap|Heap / heapq|***(module doesn't work)|
 |2948|str_intersection|||
 |3032|1st_equation|Extended Euclidean|don't need|
 |3131|many_prime|||
@@ -137,6 +140,8 @@
 |4698|special_prime|||
 |4751|diamond|||
 |4789|successful_perform_plann|||
+|4837|sum_of_subset|||
+|4843|special_sort|||
 |5162|two_kinds_of_bread|||
 |5215|hamburger_diet|dp||
 |5293|restore_binary|dfs|*|
@@ -147,4 +152,24 @@
 |5601|juice_distribution|||
 |5603|haystack|||
 |5607|combination|Fermat's little theorem, Divide & conquer|*|
+|5642|sum|dp|*|
+|5688|powpow|||
+|5789|change_box|||
+|5948|735_game|||
+|5986|three_prime|Preprocessing||
+|6019|fly_between_train|||
+|6057|tri_in_graph|||
+|6190|monotonous_increase|||
+|6485|bus_route|||
+|6692|pay_box|||
+|7675|translator|||
+|9700|usb_mystery|||
 
+
+### D4
+
+
+| Number | Title        | Algorithm |try again|
+| ------ | ------------ | --------- |---------|
+|1210|ladder1|||
+|1211|ladder2|||
