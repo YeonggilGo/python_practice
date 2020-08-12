@@ -178,4 +178,4 @@
 |1222|cal1|||
 |1223|cal2|||
 |1224|cal3|bracket stack|*|
-|1226|maze|Dis||
+|1226|maze|dfs||
