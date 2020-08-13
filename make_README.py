@@ -1,7 +1,7 @@
 import os
 
-# file_input = open("C:/Users/aclass/Desktop/python_practice/README.md", 'r', encoding='cp949')
-file_input = open("/Users/yeonggilgo/Documents/GitHub/python_practice/README.md", 'r', encoding = 'cp949')
+file_input = open("C:/Users/aclass/Desktop/python_practice/README.md", 'r', encoding='cp949')
+# file_input = open("/Users/yeonggilgo/Documents/GitHub/python_practice/README.md", 'r', encoding = 'cp949')
 input_data = file_input.readlines()
 
 algo = {}
@@ -29,8 +29,8 @@ cnt = 0
 bl = ''
 
 for i in range(1, 5):
-    os.chdir(r'/Users/yeonggilgo/Documents/GitHub/python_practice/SWEA/D' + str(i))
-    # os.chdir(r'C:/Users/aclass/Desktop/python_practice/SWEA/D'+str(i))
+    # os.chdir(r'/Users/yeonggilgo/Documents/GitHub/python_practice/SWEA/D' + str(i))
+    os.chdir(r'C:/Users/aclass/Desktop/python_practice/SWEA/D'+str(i))
     filenames = os.listdir('.')
     filenames.sort()
     num = []
@@ -50,8 +50,9 @@ for i in range(1, 5):
         data += f'''|{num[j]}|{title[j][1:-3]}|{al}|{so}|\n'''
         cnt += 1
 
-# file_output = open("C:/Users/aclass/Desktop/python_practice/README.md", 'w')
-file_output = open("/Users/yeonggilgo/Documents/GitHub/python_practice/README.md", 'w')
+
+file_output = open("C:/Users/aclass/Desktop/python_practice/README.md", 'w')
+# file_output = open("/Users/yeonggilgo/Documents/GitHub/python_practice/README.md", 'w')
 
 file_output.write(data)
 

@@ -179,3 +179,6 @@
 |1223|cal2|||
 |1224|cal3|bracket stack|*|
 |1226|maze|dfs||
+|1227|maze2|||
+|1231|inorder_traversal||**|
+|1232|4oper|||

@@ -28,7 +28,7 @@ for _ in range(1, 11):
         for i in range(4):
             ny = pos[0] + dy[i]
             nx = pos[1] + dx[i]
-            if 0 <= ny < 16 and 0 <= nx < 16 and not visited[ny][nx]:
+            if 0 <= ny < 100 and 0 <= nx < 100 and not visited[ny][nx]:
                 if maze[ny][nx] != 1:
                     q.append([ny, nx])
 
