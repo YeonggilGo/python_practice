@@ -182,3 +182,6 @@
 |1227|maze2|||
 |1231|inorder_traversal||**|
 |1232|4oper|||
+|1233|4oper_check|||
+|1238|contact|||
+|1249|supply_route|dfs + dp|**|
