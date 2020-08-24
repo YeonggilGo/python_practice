@@ -1,3 +1,5 @@
+# 방향적 측면에서 여러방향에서 접근이 가능하여 dfs보다 bfs가 더 효율적인 예시가 된다.
+
 from collections import deque
 
 dy = [1, 0, -1, 0]
