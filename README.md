@@ -142,6 +142,7 @@
 |4789|successful_perform_plann|||
 |4837|sum_of_subset|||
 |4843|special_sort|||
+|4864|compare_string|Boyer Moore||
 |5162|two_kinds_of_bread|||
 |5215|hamburger_diet|dp||
 |5293|restore_binary|dfs|*|
@@ -185,3 +186,4 @@
 |1233|4oper_check|||
 |1238|contact|||
 |1249|supply_route|dfs + dp|**|
+|1251|hana_route||**|
