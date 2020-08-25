@@ -1,2 +1,1 @@
-a = 'abca'
-print(set(a))
+print(-1%15)

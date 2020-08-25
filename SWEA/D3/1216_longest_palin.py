@@ -27,6 +27,8 @@ for tc in range(1, 11):
                 break
 
         # 세로
+        if ans:
+            break
         for j in range(100 - k + 1):
             double_break = False
             for i in range(100):

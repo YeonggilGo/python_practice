@@ -75,6 +75,8 @@
 |4834|number_card|||
 |4835|interval_sum|||
 |4839|binary_search|||
+|4861|palindrome|||
+|4865|number_of_string|||
 |4936|painting|||
 
 
@@ -187,3 +189,8 @@
 |1238|contact|||
 |1249|supply_route|dfs + dp|**|
 |1251|hana_route||**|
+|1258|finding_array|||
+|1486|high_shelf|com or recursion|*|
+|1494|counselor|com or recursion|*|
+|1803|shortest_path_faster|use while, not recursion|**|
+|1808|broken_calculator||***|
