@@ -28,7 +28,7 @@ cnt = 0
 bl = ''
 
 for i in range(1, 5):
-    os.chdir(r'/SWEA/D' + str(i))
+    os.chdir(r'SWEA/D' + str(i))
     filenames = os.listdir('.')
     filenames.sort()
     num = []
@@ -47,6 +47,7 @@ for i in range(1, 5):
         so = solved[num[j]] if num[j] in solved else bl
         data += f'''|{num[j]}|{title[j][1:-3]}|{al}|{so}|\n'''
         cnt += 1
+    os.chdir(r'../../')
 
 file_output = open("README.md", 'w')
 

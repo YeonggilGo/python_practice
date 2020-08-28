@@ -77,6 +77,10 @@
 |4839|binary_search|||
 |4861|palindrome|||
 |4865|number_of_string|||
+|4866|bracket_check|||
+|4869|attach_paper|||
+|4871|graph_route|||
+|4873|delete_repeated_char|||
 |4936|painting|||
 
 
@@ -175,7 +179,9 @@
 | Number | Title        | Algorithm |try again|
 | ------ | ------------ | --------- |---------|
 |1210|ladder1|||
+|1210|ladder1_re|||
 |1211|ladder2|||
+|1211|ladder2_re|||
 |1218|bracket|stack||
 |1219|finding_route|||
 |1222|cal1|||
@@ -194,3 +200,5 @@
 |1494|counselor|com or recursion|*|
 |1803|shortest_path_faster|use while, not recursion|**|
 |1808|broken_calculator||***|
+|1824|verify_program||**|
+|1824|verify_program_re|||
