@@ -1,1 +1,3 @@
-print(-1%15)
+a = 1
+b = 8
+print(a and b)

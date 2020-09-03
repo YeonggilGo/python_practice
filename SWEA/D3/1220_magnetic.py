@@ -11,11 +11,11 @@ for tc in range(1, 11):
     while can_move:
         can_move = False
 
-        # 일단 움직임 먼저
+        # Move First
         for i in range(N):
             for j in range(N):
 
-                # N극이 움직임
+                # movement of N
                 if board[j][i] == 1:
                     if j == N - 1:
                         board[j][i] = 0
@@ -27,7 +27,7 @@ for tc in range(1, 11):
                     else:
                         pass
 
-                # S극이 움직임
+                # movement of S
                 elif board[j][i] == 2:
                     if j == 0:
                         board[j][i] = 0
@@ -39,7 +39,7 @@ for tc in range(1, 11):
                     else:
                         pass
 
-        # 교착상태확인
+    # check deadlock
     for i in range(N):
         for j in range(N-1):
 
