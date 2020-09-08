@@ -1,33 +1,42 @@
-from itertools import combinations as coms
+def sol(h, i):
+    '''
+    recursive function that check whether 'h' is bigger than 'b'.
+    :param h : sum of people's height:
+    :param i : index of list 'l'
+    :return:
+    '''
+    global ans
+    # end condition
+    if h >= b:
+        ans = min(ans, h)
+        return
 
-T = int(input())
-for tc in range(1, T + 1):
-    N, B = map(int, input().split())
-    H = list(map(int, input().split()))
-    H.sort()
-    ans = sum(H)
-    for i in range(1, N + 1):
-        for com in coms(H, i):
-            if B <= sum(com) < ans:
-                ans = sum(com)
-    print(f'#{tc} {ans - B}')
+    # recursive
+    if i <= n - 1:
+        sol(h, i + 1) # don't contain l[i]
+        sol(h + l[i], i + 1) # contain l[i]
 
-# 재귀로 하는게 더좋다. 최악의 경우에는 같지만 그렇지 않다면 이쪽이 빠르다.
-# stack을 활용 할 수도 있다.
 
-# def sol(h, i):
-#     global a
-#     if h >= b:
-#         a = min(a, h)
-#         return
-#     if i > n - 1:
-#         return
-#     sol(h, i + 1);
-#     sol(h + l[i], i + 1)
+for t in range(int(input())):
+    ans = 1 << 32
+    n, b = map(int, input().split())
+    l = list(map(int, input().split()))
+    sol(0, 0)
+    print(f'#{t + 1}', ans - b)
+
+# Recursion is faster way than the answer below. In the worst case,
+# it takes same time. You can also solve by stack.
+
+# from itertools import combinations as coms
 #
-# for t in range(int(input())):
-#     a = 1 << 32;
-#     n, b = map(int, input().split());
-#     l = list(map(int, input().split()));
-#     sol(0, 0);
-#     print(f'#{t + 1}', a - b)
+# T = int(input())
+# for tc in range(1, T + 1):
+#     N, B = map(int, input().split())
+#     H = list(map(int, input().split()))
+#     H.sort()
+#     ans = sum(H)
+#     for i in range(1, N + 1):
+#         for com in coms(H, i):
+#             if B <= sum(com) < ans:
+#                 ans = sum(com)
+#     print(f'#{tc} {ans - B}')
