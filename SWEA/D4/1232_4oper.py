@@ -11,6 +11,14 @@ def cal(oper, num1, num2):
 
 
 def solve(info):
+    '''
+    recursive function
+    :param info:
+    if 'info' is number:
+        :return: info
+    else:
+        :return: recursion left and right element
+    '''
     if info[0].isdigit():
         return info[0]
     else:
@@ -19,8 +27,5 @@ def solve(info):
 
 for tc in range(1, 11):
     N = int(input())
-    tree = []
-    for i in range(N):
-        tree.append(input().split()[1:])
-
+    tree = [input().split()[1:] for _ in range(N)]
     print(f'#{tc} {int(solve(tree[0]))}')
