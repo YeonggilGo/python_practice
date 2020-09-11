@@ -1,3 +1,3 @@
-from _collections import deque
-a = deque([1,2,3,4,5,6,7])
-a.
+a = [(1, 2), (2, 3), (3, 4)]
+b = [(2, 3), (3, 4), (1, 2), (3,4)]
+print(set(a) == set(b))

@@ -19,7 +19,7 @@ for tc in range(1, int(input()) + 1):
 
     # ans : sum of all numbers upward from last node
     ans = 0
-    while heapcount:
+    while heapcount > 1:
         heapcount //= 2
         ans += heap[heapcount]
 
