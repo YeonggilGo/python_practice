@@ -81,7 +81,16 @@
 |4869|attach_paper|||
 |4871|graph_route|||
 |4873|delete_repeated_char|||
+|4874|forth|||
+|4875|maze|||
+|4880|tournament_card|||
+|4881|minimun_sum_of_array|||
 |4936|painting|||
+|5097|rotate|||
+|5102|dis_of_node|||
+|5174|subtree|||
+|5176|binary_search|||
+|5177|binary_heap|||
 
 
 ### D3
@@ -149,7 +158,10 @@
 |4837|sum_of_subset|||
 |4843|special_sort|||
 |4864|compare_string|Boyer Moore||
+|5099|pizza_baking|||
+|5105|maze_distance|||
 |5162|two_kinds_of_bread|||
+|5178|sum_of_node|||
 |5215|hamburger_diet|dp||
 |5293|restore_binary|dfs|*|
 |5356|say_vertical|||
@@ -200,5 +212,29 @@
 |1494|counselor|com or recursion|*|
 |1803|shortest_path_faster|use while, not recursion|**|
 |1808|broken_calculator||***|
-|1824|verify_program||**|
+|1824|verify_program|||
 |1824|verify_program_re|||
+|1848|mine|||
+|1861|square_room|||
+|1865|distribute|||
+|2819|numbers_in_board|||
+|2938|dulicated_string|||
+|3752|albe_score|||
+|4613|flag_of_russia|||
+|7465|number_of_group|||
+
+
+### D5
+
+
+| Number | Title        | Algorithm |try again|
+| ------ | ------------ | --------- |---------|
+|1248|common_parents|||
+
+
+### D6
+
+
+| Number | Title        | Algorithm |try again|
+| ------ | ------------ | --------- |---------|
+|1267|order_of_tasks|||
