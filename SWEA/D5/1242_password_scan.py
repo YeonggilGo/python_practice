@@ -19,8 +19,10 @@ for tc in range(1, T + 1):
             if sig[j][i] != '0' and sig[j - 1][i] == '0':
                 bin_sig = bin(int(sig[j][:i + 1], 16))[2:].rstrip('0')
                 is_extended = False
-                for ext in (2, len(bin_sig) // 56 + 2):
-
+                ext = 1
+                for e in range(2, len(bin_sig) // 56 + 2):
+                    temp_sig = '0' * (e*56 - len(bin_sig))
+                    
 
                 pwd = ''
                 for k in range(8):
