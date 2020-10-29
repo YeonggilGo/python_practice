@@ -1,28 +1,32 @@
-T = int(input())
-
-def dfs(num, n, cnt):
+def dfs(num, cnt):
     global ans
-    if n == cnt:
-        num = int(''.join(list(map(str,num))))
-        if  num > ans:
+    if cnt == n:
+        num = int(''.join(num))
+        if num > ans:
             ans = num
         return
-    
+
+    cnt += 1
     for i in range(len(num)):
         for j in range(i + 1, len(num)):
-    
             num[i], num[j] = num[j], num[i]
-            dfs(num, n, cnt + 1)
+            t = ''.join(num)
+            if t in visited:
+                if visited[t][cnt - 1]:
+                    num[i], num[j] = num[j], num[i]
+                    continue
+            else:
+                visited[t] = [0 for _ in range(n)]
+            visited[t][cnt - 1] = 1
+            dfs(num, cnt)
             num[i], num[j] = num[j], num[i]
-    
-    
 
+
+T = int(input())
 for tc in range(1, T + 1):
-    num, n = input().split()
+    numbers, n = input().split()
     ans = 0
-    num = list(num)
     n = int(n)
-
-
-    dfs(num,n,0)
+    visited = {}
+    dfs(list(numbers), 0)
     print(f'#{tc} {ans}')

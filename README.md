@@ -20,6 +20,7 @@
 
 | Number | Title        | Algorithm |try again|
 | ------ | ------------ | --------- |---------|
+|.ide||||
 |1545|reverse_output|||
 |1933|div|||
 |1936|rsp|||
@@ -46,7 +47,7 @@
 | Number | Title        | Algorithm |try again|
 | ------ | ------------ | --------- |---------|
 |1204|maximum_frequency_num|||
-|1284|water_rate|||
+|1284|water_bill|||
 |1288|insomnia|||
 |1859|millionaire|reverse search|*|
 |1926|simple369|||
@@ -91,6 +92,8 @@
 |5174|subtree|||
 |5176|binary_search|||
 |5177|binary_heap|||
+|5185|binary|||
+|5186|binary2|||
 
 
 ### D3
@@ -114,6 +117,7 @@
 |1230|password3|||
 |1234|memorize_pwd|||
 |1240|binary_pwd|||
+|1240|simple_binary_pwd|||
 |1244|maximum_prize|DFS||
 |1289|restore|||
 |1491|wall_deco|||
@@ -162,6 +166,7 @@
 |5105|maze_distance|||
 |5162|two_kinds_of_bread|||
 |5178|sum_of_node|||
+|5188|minimum_sum|||
 |5215|hamburger_diet|dp||
 |5293|restore_binary|dfs|*|
 |5356|say_vertical|||
@@ -219,7 +224,9 @@
 |1865|distribute|||
 |2819|numbers_in_board|||
 |2938|dulicated_string|||
+|3000|median|||
 |3752|albe_score|||
+|4366|bankwork|||
 |4613|flag_of_russia|||
 |7465|number_of_group|||
 
@@ -229,6 +236,7 @@
 
 | Number | Title        | Algorithm |try again|
 | ------ | ------------ | --------- |---------|
+|1242|password_scan||*|
 |1248|common_parents|||
 
 

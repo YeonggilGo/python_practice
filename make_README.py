@@ -28,7 +28,7 @@ cnt = 0
 bl = ''
 os.chdir('./SWEA')
 file_names = os.listdir()
-file_names = sorted([name for name in file_names if not name.startswith('.')])
+file_names = sorted([name for name in file_names if name.startswith('D')])
 print(file_names)
 for i in range(len(file_names)):
     os.chdir(f'{file_names[i]}')
