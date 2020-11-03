@@ -1,9 +1,10 @@
 def dfs(cnt, pro):
     global ans
-    if cnt == N:
-        ans = max(ans, pro)
-
     if pro < ans:
+        return
+
+    if cnt == N:
+        ans = pro
         return
 
     for i in range(N):
@@ -11,7 +12,6 @@ def dfs(cnt, pro):
             visited[i] = 1
             dfs(cnt + 1, pro * P[cnt][i] / 100)
             visited[i] = 0
-
 
 
 T = int(input())
@@ -23,6 +23,6 @@ for tc in range(1, T + 1):
 
     visited = [0 for _ in range(N)]
     ans = 0
-    dfs(0,1)
-    ans = round(ans*100, 6)
+    dfs(0, 1)
+    ans = round(ans * 100, 6)
     print(f'#{tc} {ans:6f}')

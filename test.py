@@ -1,3 +1,3 @@
-a = '123'
-list(a)
-print(int(''.join(a)))
+import sys
+a = float('inf')
+print(a > sys.maxsize)
