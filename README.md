@@ -167,6 +167,15 @@
 |5162|two_kinds_of_bread|||
 |5178|sum_of_node|||
 |5188|minimum_sum|||
+|5189|eleccart|||
+|5201|carrying_container|||
+|5202|cargo_dock|||
+|5203|baby-gin|||
+|5204|merge_sort|||
+|5205|quick_sort|||
+|5207|binary_search|||
+|5208|elec_bus2|||
+|5209|minimum_cost|||
 |5215|hamburger_diet|dp||
 |5293|restore_binary|dfs|*|
 |5356|say_vertical|||
@@ -228,6 +237,7 @@
 |3752|albe_score|||
 |4366|bankwork|||
 |4613|flag_of_russia|||
+|5247|oper||*|
 |7465|number_of_group|||
 
 
@@ -237,6 +247,7 @@
 | Number | Title        | Algorithm |try again|
 | ------ | ------------ | --------- |---------|
 |1242|password_scan||*|
+|1247|optimal_path|||
 |1248|common_parents|||
 
 
