@@ -20,7 +20,6 @@
 
 | Number | Title        | Algorithm |try again|
 | ------ | ------------ | --------- |---------|
-|.ide||||
 |1545|reverse_output|||
 |1933|div|||
 |1936|rsp|||

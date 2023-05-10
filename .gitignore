@@ -441,6 +441,4 @@ fabric.properties
 # *.iml
 # modules.xml
 *.xml
-*.iml
-*.xml
-*.iml
+.idea/*
