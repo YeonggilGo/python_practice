@@ -2,6 +2,7 @@
 ### DP
 - https://leetcode.com/problems/solving-questions-with-brainpower/description/
 - https://leetcode.com/problems/uncrossed-lines/
+- https://leetcode.com/problems/make-array-strictly-increasing
 
 ### Linked List
 - https://leetcode.com/problems/add-two-numbers
